@@ -1,0 +1,12 @@
+@media (max-width: 700px)
+{
+    .flags {
+        display: none;
+    }
+    #send_bar {
+        display: fixed;
+    }
+
+}
+
+/* S */

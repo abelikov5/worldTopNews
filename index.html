@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Top wold news">
+    <meta property="og:description" content="The most popular news arround the world in one place. Powered by abelikov5.ru">
+    <meta property="og:image" content="./img/social_img-min.jpeg">
+    <meta property="og:url" content="http://abelikov5.ru">
+    <title>Top word news</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="sendvich_bar display_none" id="send_bar">
+        <div class="sendvich_bar_item">
+            <button data-country="us">USA news</button>
+            <img  data-country="us"src="img/flags/us.png" alt="">
+        </div>
+        <div class="sendvich_bar_item">
+            <button data-country="fr">France news</button>
+            <img  data-country="fr"src="img/flags/fr.png" alt="">
+        </div>
+        <div class="sendvich_bar_item">
+            <button data-country="cn">Chine news</button>
+            <img data-country="cn" src="img/flags/ch.png" alt="">
+        </div>
+        <div class="sendvich_bar_item">
+            <button data-country="br">Brasil news</button>
+            <img  data-country="br"src="img/flags/br.png" alt="">
+        </div>
+        <div class="sendvich_bar_item">
+            <button data-country="jp">Japany news</button>
+            <img  data-country="jp"src="img/flags/jpy.png" alt="">
+        </div>
+        
+
+    </div>
+    <div class="header">
+        <div class="left">
+            Top word news
+        </div>
+        <div class="right">
+            <div class="sendvich"></div>
+            <div class="sendvich"></div>
+            <div class="sendvich"></div>
+        </div>
+    </div>
+    <div class="header_width_under_700">
+
+
+    </div>
+
+    <section class="flags">
+        <div class="container">
+            <div class="flag_menu">
+                <img src="img/flags/us.png" alt="" data-flag="us">
+                <button data-flag="us">USA news</button>
+            </div>
+            <div class="flag_menu">
+                <img src="img/flags/fr.png" alt="" data-flag="fr">
+                <button data-flag="fr">France news</button>
+            </div>
+            <div class="flag_menu">
+                <img src="img/flags/ch.png" alt="" data-flag="cn">
+                <button data-flag="cn">Chine news</button>
+            </div>
+            <div class="flag_menu">
+                <img src="img/flags/br.png" alt="" data-flag="br">
+                <button data-flag="br">Brasil news</button>
+            </div>
+            <div class="flag_menu">
+                <img src="img/flags/jpy.png" alt="" data-flag="jp">
+                <button data-flag="jp">Japany news</button>
+            </div>
+        </div>
+    </section>
+    <section class="choose">
+        <div class="container">
+            <div class="choose_in">
+                <form action="" class="choose_in_form">
+                    <input type="text" class="form_item" placeholder="type news">
+                    <select name="" id="select_country" class="form_item">
+                        <option value="ru">Russia</option>
+                        <option value="us">USA</option>
+                        <option value="ca">Canada</option>
+                        <option value="br">Brasil</option>
+
+                    </select>
+                    <button class="form_item">Upload News</button>
+                </form>
+            </div>
+
+
+        </div>
+
+    </section>
+    <section class="news">
+        <div class="container" id="news_container">
+
+
+        </div>
+
+    </section>
+    <!-- <section class="sendvich_bar">
+        <div class="bg_main">
+
+        </div>
+    </section> -->
+    
+    <script src="js/newapp.js"></script>
+</body>
+</html>
